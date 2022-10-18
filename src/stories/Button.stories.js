@@ -38,6 +38,9 @@ export const Secondary = Template.bind({});
 Secondary.args = {
   label: 'Button',
 };
+Primary.parameters = {
+  status: 'beta',
+}
 
 export const Large = Template.bind({});
 Large.args = {
